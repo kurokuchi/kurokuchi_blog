@@ -15,10 +15,10 @@ export default async function Detail({params}:any) {
                     상세페이지
                 </h4>
                 <h4 className='text-lg font-bold m-0'>
-                    {result?.title}
+                    {result && result.title}
                 </h4>
                 <p className='text-gray-600 m-1'>
-                    {result?.date}
+                    {result && result.date}
                 </p>
             </div>
         </div>
